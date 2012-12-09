@@ -37,3 +37,21 @@ TeXLive texlive-zh-cn package.
 %install
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
+
+
+%changelog
+* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120808-1
++ Revision: 812909
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111104-2
++ Revision: 756725
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111104-1
++ Revision: 719704
+- texlive-texlive-zh-cn
+- texlive-texlive-zh-cn
+- texlive-texlive-zh-cn
+- texlive-texlive-zh-cn
+
