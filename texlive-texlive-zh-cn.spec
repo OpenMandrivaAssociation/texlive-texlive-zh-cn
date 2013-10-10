@@ -1,11 +1,11 @@
-# revision 26851
+# revision 30732
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-zh-cn
-Version:	20120808
+Version:	20131009
 Release:	1
 Summary:	TeX Live manual (Chinese)
 Group:		Publishing
@@ -22,11 +22,11 @@ TeXLive texlive-zh-cn package.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdir}/doc/texlive/texlive-zh-cn/Makefile
-%doc %{_texmfdir}/doc/texlive/texlive-zh-cn/README-live.ZH-CN
-%doc %{_texmfdir}/doc/texlive/texlive-zh-cn/tex-live-zh-cn.sty
-%doc %{_texmfdir}/doc/texlive/texlive-zh-cn/texlive-zh-cn.pdf
-%doc %{_texmfdir}/doc/texlive/texlive-zh-cn/texlive-zh-cn.tex
+%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/Makefile
+%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/README-live.ZH-CN
+%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/tex-live-zh-cn.sty
+%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/texlive-zh-cn.pdf
+%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/texlive-zh-cn.tex
 
 #-----------------------------------------------------------------------
 %prep
@@ -35,23 +35,5 @@ TeXLive texlive-zh-cn package.
 %build
 
 %install
-mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf %{buildroot}%{_datadir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120808-1
-+ Revision: 812909
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111104-2
-+ Revision: 756725
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111104-1
-+ Revision: 719704
-- texlive-texlive-zh-cn
-- texlive-texlive-zh-cn
-- texlive-texlive-zh-cn
-- texlive-texlive-zh-cn
-
+mkdir -p %{buildroot}%{_texmfdistdir}
+cp -fpar doc %{buildroot}%{_texmfdistdir}
