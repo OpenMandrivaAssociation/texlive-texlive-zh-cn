@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-texlive-zh-cn
 Version:	20131009
-Release:	3
+Release:	4
 Summary:	TeX Live manual (Chinese)
 Group:		Publishing
 URL:		http://tug.org/texlive
