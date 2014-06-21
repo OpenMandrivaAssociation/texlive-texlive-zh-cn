@@ -1,12 +1,12 @@
-# revision 30732
+# revision 34118
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-zh-cn
-Version:	20131009
-Release:	6
+Version:	20140621
+Release:	1
 Summary:	TeX Live manual (Chinese)
 Group:		Publishing
 URL:		http://tug.org/texlive
