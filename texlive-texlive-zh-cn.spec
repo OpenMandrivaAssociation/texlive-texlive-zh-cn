@@ -1,12 +1,6 @@
-# revision 34118
-# category TLCore
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-texlive-zh-cn
 Version:	20190321
-Release:	1
+Release:	2
 Summary:	TeX Live manual (Chinese)
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -22,11 +16,7 @@ TeXLive texlive-zh-cn package.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/Makefile
-%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/README-live.ZH-CN
-%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/tex-live-zh-cn.sty
-%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/texlive-zh-cn.pdf
-%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn/texlive-zh-cn.tex
+%doc %{_texmfdistdir}/doc/texlive/texlive-zh-cn
 
 #-----------------------------------------------------------------------
 %prep
