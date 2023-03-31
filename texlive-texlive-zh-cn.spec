@@ -1,6 +1,6 @@
 Name:		texlive-texlive-zh-cn
 Version:	54490
-Release:	1
+Release:	2
 Summary:	TeX Live manual (Chinese)
 Group:		Publishing
 URL:		http://tug.org/texlive
