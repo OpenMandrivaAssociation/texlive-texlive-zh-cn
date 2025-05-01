@@ -1,5 +1,5 @@
 Name:		texlive-texlive-zh-cn
-Version:	71700
+Version:	74098
 Release:	1
 Summary:	TeX Live manual (Chinese)
 Group:		Publishing
